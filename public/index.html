@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animate by Example!</title>
+	<script src="gestures.js"></script>
+	<script src="animator.js"></script>
+	<script>
+		document.addEventListener("touchmove", function(event){
+			event.preventDefault();
+		}, false);
+	</script>
+</head>
+<body>
+	<div id="sidebar">
+		<div id="menu"></div>
+		<div id="layers"></div>
+	</div>
+	<div id="topbar"></div>
+	<div id="viewer">
+		<canvas id="canvas"></canvas>
+	</div>
+	<div id="workspace"></div>
+</body>
+</html>
